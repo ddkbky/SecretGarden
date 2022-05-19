@@ -1,0 +1,5 @@
+library(ggplot2)
+data("diamonds")
+View(diamonds)
+library(tidyverse)
+mutate(diamonds, carat_2 = carat * 100)
